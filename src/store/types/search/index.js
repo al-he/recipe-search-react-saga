@@ -1,0 +1,5 @@
+export const RecipeTypes = Object.freeze({
+    GET_RECIPES: 'GET_RECIPES',
+    GET_RECIPES_FAIL: 'GET_RECIPES_FAIL',
+    GET_RECIPES_SUCCESS: 'GET_RECIPES_SUCCESS',
+});
