@@ -14,7 +14,7 @@ export const Filter = ({ data }) => {
             <Checkbox.Group onChange={filterHandler}>
                 {data.map(item => {
                     return (
-                        <Checkbox value={`&health=${item.parameter}`} key={item.parameter}>
+                        <Checkbox value={`&${item.name}=${item.parameter}`} key={item.parameter}>
                             {item.label} <span className="span-tip">{item.definition}</span>
                         </Checkbox>
                     );
